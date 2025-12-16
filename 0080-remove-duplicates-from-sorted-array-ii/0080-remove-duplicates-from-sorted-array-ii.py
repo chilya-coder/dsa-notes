@@ -1,17 +1,12 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        # Intuitive in-place solution
-        writePointer = 0
-        maxTwoCounter = 1
+        # Quite interesting variation of "no more than k same items"
+        # For a sorted array, comparing with nums[write - 2] ensures no more than two duplicates
+
+        write = 0
         
-        for x in nums[1:]:
-            if nums[writePointer] == x:
-                if maxTwoCounter < 2:
-                    maxTwoCounter += 1
-                    writePointer += 1
-                    nums[writePointer] = x
-            else: 
-                maxTwoCounter = 1
-                writePointer += 1
-                nums[writePointer] = x
-        return writePointer + 1
+        for x in nums:
+            if write < 2 or x != nums[write - 2]:
+                nums[write] = x
+                write += 1
+        return write
