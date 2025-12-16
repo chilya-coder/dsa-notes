@@ -4,5 +4,5 @@ class Solution:
         for i in nums:
             if i != val:
                 nums[currentIndex] = i
-                currentIndex+= 1
+                currentIndex += 1
         return currentIndex
