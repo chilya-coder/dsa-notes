@@ -44,32 +44,30 @@ Key observation:
 - we track the **maximum profit** (`price today - minBuy`)
 
 At each step:
-- either update `minBuy`
-- or update `profit`
+- either update `minBuy` if the current price is lower
+- or update `profit` if selling today is more profitable
 - or do nothing
+
+We do not actually execute a buy operation.
+Instead, we keep track of the lowest price seen so far and
+continuously evaluate whether selling at the current price
+would yield a better profit.
+
+### Best Time to Buy and Sell Stock 2 (122)
+
+Very similar to the previous problem, but the greedy invariant is different.
+
+Here we do not care about a single global optimum.
+Instead, we exploit the fact that **multiple transactions are allowed**.
+
+At each step:
+- we compare neighboring prices (`i` and `i - 1`)
+- if the price increased, the difference represents a guaranteed profit
+- this profit is taken immediately
+
+Effectively, we accumulate all positive price deltas.
 
 Single pass. No backtracking.
 
 ---
 
-## Greedy invariant
-
-A greedy solution is correct only if:
-
-> Once a choice is made, it will never be beneficial to undo it later.
-
-Example (stock problem):
-
-- if a lower price appears, it is **always better** to buy there
-- there is no scenario where buying earlier at a higher price helps
-
----
-
-## Mental model
-
-Greedy is not about clever tricks.
-
-It is about answering:
-
-> *What is the minimum information I must carry forward  
-> so that future decisions remain optimal?*
