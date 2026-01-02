@@ -7,13 +7,6 @@ We usually maintain two pointers with **different responsibilities**:
 1p - **read pointer**: traverses the input list<br>
 2p - **write pointer**: marks the end of the valid result and overwrites input list by if statement conditions of task.
 
-Python-specific pitfalls:
-(yes, I used to be that Java person =))
-
--  slicing (`nums[1:]`) creates a new list with shifted indexes - they no longer match the original array
-- `for x in nums` iterates over values, not indexes (unlike classic Java loops). Easily solved by using enumerate, but still.
--  be explicit about whether a variable represents an **index** or a **value**
-
 ## **[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)**
 We use **Reverse Two Pointers** technique from the **end/tail** to insert values on correct positions and not override others.
 
