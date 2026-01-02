@@ -1,9 +1,8 @@
 # Greedy algorithm
 
-Main idea is to make a **locally optimal decision at each step**, with the guarantee
-that it leads to a **globally optimal solution**.
+Main idea is to make a **locally optimal decision at each step**, with the guarantee that it leads to a **globally optimal solution**.
 
-Greedy algorithms do **not** backtrack.  
+Greedy algorithms do **not** backtrack.
 They commit to decisions immediately.
 
 ---
@@ -71,3 +70,44 @@ Single pass. No backtracking.
 
 ---
 
+## Greedy Invariant - Farthest Reach (Jump Game problem)
+
+Unlikely with making local optimum solution at EACH step, here we consider a boundary of reachability.
+
+### Key idea
+
+We track **how far we can reach** using **ANY** of the positions processed so far.
+
+At each step, we ask:
+
+> Given all positions in the prefix `[0..i]`,  
+> what is the farthest (max) index we can reach?
+
+**before each step check if our "farthest" value is still in range of [0...currentElement]**
+
+---
+
+**Jump Game (55)**
+
+- `nums[i]` represents the maximum jump length from index `i`
+- the goal is to check whether the last index is reachable
+
+We do **not** simulate jumps.
+We only verify that each index **lies within the reachable boundary**.
+
+If the boundary reaches or exceeds the last index, the answer is `true`.
+
+```
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        farthestPoint = 0
+
+        for i in range(len(nums)):
+            #check if farthestPoint is still included in range nums[0]...i
+            if i > farthestPoint:
+                return False
+            farthestPoint = max(farthestPoint, i + nums[i])
+            if farthestPoint >= len(nums) - 1:
+                return True
+        return False
+```
