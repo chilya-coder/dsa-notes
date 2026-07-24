@@ -1,7 +1,6 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        # Space Complexity: O(n)
-        # Time Complexity: O(n log k)
+        # Space Complexity: O(n log k)
         
         my_dict = Counter(nums)
 
@@ -9,8 +8,7 @@ class Solution:
 
         for val, freq in my_dict.items():
             heapq.heappush(heap, (freq, val))
-            
-            # Sift Down takes O(log k)
+            # Time Complexity: O(n log k)
             if len(heap) > k:
                 heapq.heappop(heap)
 
