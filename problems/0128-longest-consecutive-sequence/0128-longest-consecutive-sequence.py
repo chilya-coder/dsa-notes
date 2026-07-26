@@ -1,15 +1,18 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        existing_values = set(nums)
-        longest_seq = 0
+        # Space Complexity: O(n)
+        # Time Complexity: O(n)
+        max_length = 0
+
+        nums_set = set(nums)
+        # IMPORTANT! if we have a lot of duplicates in input list, use nums_set instead of nums
+        for i in nums_set:
+            if i - 1 in nums_set:
+                continue
+            # it's the start element
+            j = i
+            while j in nums_set:
+                j += 1
+            max_length = max(max_length, j - i)
         
-        # hint: iterate over set to avoid checking duplicates
-        for i in existing_values:
-            # check if it's the first element in sequence
-            if i - 1 not in existing_values: #True if it's the first element
-                length = 0
-                while (i + length) in existing_values:
-                    length += 1
-                longest_seq = max(longest_seq, length)
-        return longest_seq
-                
+        return max_length
