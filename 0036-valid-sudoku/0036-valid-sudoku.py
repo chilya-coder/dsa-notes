@@ -1,71 +1,47 @@
+from collections import defaultdict
+from typing import List
+
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        rowSet = []
-        colSet = []
-        r = 0
-        c = 0
+        # dicts for col, row and sub-boxes uniqueness
+        # idx_col -> set()
+        # idx_row -> set()
+        # (idx_box_col, idx_box,row) -> set()
 
-        while c < 9:
-            while r < 9:
-                if board[r][c] != '.':
-                    if board[r][c] in colSet:
-                        return False
-                    else:
-                        colSet.append(board[r][c])
-                r += 1
-            c += 1
-            r = 0
-            colSet.clear()
-            
-        for i in board:
-            for j in i:
-                if j != "." and j in rowSet:
+        # // 3 groups adjacent indices together
+
+        col = defaultdict(set)
+        row = defaultdict(set)
+        boxes = defaultdict(set)
+
+        for idx_r, board_row in enumerate(board):
+            for idx_c, val in enumerate(board_row):
+                if val == '.': continue
+                if val in col[idx_c] or val in row[idx_r] or val in boxes[(idx_r // 3, idx_c // 3)]:
                     return False
                 else:
-                    rowSet.append(j)
-            rowSet.clear()
-            
-        box_r = 0
-        box_c = 0
-        while box_r < 9:
-            while box_c < 9:
-                boxSet = []
-                
-                r = 0
-                while r < 3:
-                    c = 0
-                    while c < 3:
-                        element = board[box_r + r][box_c + c]
-                        if element != '.':
-                            if element in boxSet:
-                                return False
-                            else:
-                                boxSet.append(element)
-                        c += 1
-                    r += 1
-                
-                box_c += 3
-            box_c = 0
-            box_r += 3 
-
+                   col[idx_c].add(val)
+                   row[idx_r].add(val) 
+                   boxes[(idx_r // 3, idx_c // 3)].add(val)
         return True
 
-# def main():
-#     test_board = [
-#         ["1","2",".",".","3",".",".",".","."],
-#         ["4",".",".","5",".",".",".",".","."],
-#         [".","9","8",".",".",".",".",".","3"],
-#         ["5",".",".",".","6",".",".",".","4"],
-#         [".",".",".","8",".","3",".",".","5"],
-#         ["7",".",".",".","2",".",".",".","6"],
-#         [".",".",".",".",".",".","2",".","."],
-#         [".",".",".","4","1","9",".",".","8"],
-#         [".",".",".",".","8",".",".","7","9"]
-#     ]
+def main():
+    test_board = [
+        ["1","2",".",".","3",".",".",".","."],
+        ["4",".",".","5",".",".",".",".","."],
+        [".","9","8",".",".",".",".",".","3"],
+        ["5",".",".",".","6",".",".",".","4"],
+        [".",".",".","8",".","3",".",".","5"],
+        ["7",".",".",".","2",".",".",".","6"],
+        [".",".",".",".",".",".","2",".","."],
+        [".",".",".","4","1","9",".",".","8"],
+        [".",".",".",".","8",".",".","7","9"]
+    ]
     
-#     solution = Solution()
-#     result = solution.isValidSudoku(test_board)
-#     print(f"Result: {result}")
+    solution = Solution()
+    result = solution.isValidSudoku(test_board)
+    print(f"Result: {result}")
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
