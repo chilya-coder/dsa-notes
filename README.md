@@ -187,9 +187,18 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/chilya-coder/dsa-notes/tree/main/0036-valid-sudoku/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/chilya-coder/dsa-notes/tree/main/0238-product-of-array-except-self/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/chilya-coder/dsa-notes/tree/main/0238-product-of-array-except-self/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0036-valid-sudoku](https://github.com/chilya-coder/dsa-notes/tree/main/0036-valid-sudoku/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0036-valid-sudoku](https://github.com/chilya-coder/dsa-notes/tree/main/0036-valid-sudoku/) | Medium |
 <!---LeetCode Topics End-->
