@@ -1,7 +1,6 @@
-# Read / Write Compression (Slow / Fast Pointers)
+# Fast/Slow (Read/Write) Pointers
 
-This pattern is used for **in-place filtering** of arrays where elements
-need to be kept or discarded based on a condition.
+This pattern is used for **in-place filtering** of arrays where elements need to be kept or discarded based on a condition.
 
 ---
 
@@ -9,14 +8,14 @@ need to be kept or discarded based on a condition.
 
 Two pointers move in the **same direction** (left → right):
 
-- **read pointer** (`j` or `x` in for-each): scans every element
-- **write pointer** (`i` or `write`): marks the boundary of valid output
+- **read pointer**: scans every element
+- **write pointer**: marks the boundary of valid output
 
 Everything before `write` is the valid result.
 Everything at or after `write` is garbage.
 
 ```
-[ valid region | garbage ]
+[ valid elements | garbage ]
                ↑
              write
 ```
@@ -37,11 +36,11 @@ Everything at or after `write` is garbage.
 write = 0
 
 for x in nums:
-    if should_keep(x):
+    if x has valid condition:
         nums[write] = x
         write += 1
 
-return write
+return nums
 ```
 
 ---
@@ -59,8 +58,8 @@ One pointer for traversing input, second to fill final list (by the condition `c
 
 ### [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
-`i` — write pointer
-`j` — read pointer (one step ahead of write)
+`i` - write pointer
+`j` - read pointer (one step ahead of write)
 
 Logical invariant: all elements before write should stay unique.
 

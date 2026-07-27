@@ -8,9 +8,8 @@ This pattern uses two pointers that move **toward each other**.
 
 - **left** pointer starts at the beginning
 - **right** pointer starts at the end
-- They converge based on a condition (sum comparison, character match, etc.)
 
-Unlike Read/Write Compression, both pointers are **equal citizens** — neither is strictly a "reader" or "writer".
+Unlike Read/Write (Fast/Slow) pointers, both pointers are **equal citizens** - neither is strictly a "reader" or "writer".
 
 ---
 
@@ -31,7 +30,6 @@ left, right = 0, len(arr) - 1
 
 while left < right:
     if condition(arr[left], arr[right]):
-        # found / process
         left += 1
         right -= 1
     elif need_bigger:
