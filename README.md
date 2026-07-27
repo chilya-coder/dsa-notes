@@ -5,20 +5,20 @@
 *Quick recall system for acing the coding interviews*
 
 ![LeetCode Progress](https://img.shields.io/badge/LeetCode_Progress-46%2F150_%2830%25%29-orange?style=for-the-badge&logo=leetcode)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202026-blue?style=for-the-badge&logo=calendar)](https://github.com/yuliiachimyrys/dsa-notes)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202026-blue?style=for-the-badge&logo=calendar)](https://github.com/yuliiachimyrys/dsa-notes)
 [![Language](https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python)](https://python.org)
 
 </div>
 
 ---
 
-## 👋 Hi
+## 👋 Hey, LC-fellow
 
-I'm Yuliia (yuchi). This repository is a **quick recall system** for the **[Top 150 LeetCode problems](https://leetcode.com/studyplan/top-interview-150/)**.
+This repository is a **quick recall system** for the **[Neetcode 150 LC](https://leetcode.com/problem-list/plakya4j//)**.
 
-Like most developers, I seek growth opportunities in my career. That said, I have to keep my Leetcode skills on a decent level to ace the algo interview.
+Like most developers, I struggled A LOT when it came to DSA interviews.
 
-Over time, I learnt that strong algorithmic performance is not about memorization but about **inductive thinking**. This is an iterative process that happens throughout the entire journey of interview prepping.
+Over time, I learnt that strong algorithmic performance is not about memorization but about **inductive thinking**.
 
 When solving problems, I focus on:
 
@@ -36,26 +36,8 @@ TL;DR: Python.
 
 Since university I used Java, but I made a strategic move to Python in 2025 for the technical interviews. When time is the most critical constraint, Python allows to bypass the boilerplate and focus 100% on logic rather than syntax.
 
-UPD: I started to collect some syntax pitfalls into python_notes file in the repo.
-Rabbit hole of turning human language into programming one is endless! (I still google most of the stuff)
-
 </details>
 
-<details>
-
-<summary><b>Does the order of solving LC problems matter?</b></summary>
-
-Yes. I pay attention to pattern taxonomy first.
-
-  My workflow:
-
-  1. Identify the signal (e.g., "Sorted array" + "Find a pair").
-  2. Select the pattern (e.g., "Two Pointers").
-  3. Establish the invariant (e.g., "Left pointer only moves right").
-  4. Draft pseudocode to verify logic.
-  5. Implement in Python to finalize.
-
-</details>
 <details>
 <summary><b>How do you sync LC solutions to GitHub?</b></summary>
 
@@ -64,40 +46,31 @@ It's auto-synced using [LeetHub-3.0](https://github.com/QasimWani/LeetHub) brows
 </details>
 <details>
 <summary><b>How do you automate your pattern taxonomy?</b></summary>
-As most of the developers, I hate to CTRL+C and CTRL+V all the same data between notes and folders. My personal belief, if anything is done twice - I automate it. Check the automate section below or just run script locally:
 
-```python3
+If anything is done twice - I automate it. The taxonomy table below is automatically updated via a CI/CD pipeline. 
+A custom Python script parses the `pattern:` metadata from individual problem READMEs to prevent manual bookkeeping.
+
+To preview the taxonomy changes locally, run:
+
+```bash
+
 python3 scripts/update_taxonomy.py --dry-run
 ```
 
 </details>
-<details>
-
-<summary><b>Other references</b></summary>
-
-1. Python Distilled by David M. Beazley
-
-While you can google most of the stuff when it comes to syntax, I do enjoy to see all the data in one single paper edition, so I can re-visit it.
-
-</details>
----
+----
 
 ## 🏗 Repository Architecture
 
 ## 📁 `/patterns/`
 
-The **Strategic Layer**. Contains the "why" and "how":
-
-- **The Signal**: When to use this pattern.
-- **The Template**: Reusable Python boilerplate.
-- **The Invariant**: Critical logic that must hold true.
-- **Common pitfalls**: Mistakes to avoid
+The **Strategic Layer**. Contains the "why" and "how". Distributed into dedicated folders by topics.
 
 ## 📁 `/problems/`
 
-The **Implementation Layer**. Contains clean, optimal Python solutions mapped to their specific pattern.
+The **Implementation Layer**. Contains clean, optimal Python solutions mapped to their specific pattern. Time and Space Complexity incl.
 
----
+----
 
 ## How To Use This Repository?
 
@@ -105,9 +78,9 @@ This repository is designed as a pre-interview refresher, not a full algorithm t
 
 Suggested workflow:
 
-1. Review Pattern Taxonomy & Cheat Sheet to refresh recognition signals
+1. Review Pattern Taxonomy (check my own WIKI for deepdive) & Signals to refresh recognition signals
 2. Revisit Pattern READMEs to recall invariants and templates
-3. Skim solved problems
+3. Refresh solved problems
 
 ---
 
@@ -136,13 +109,11 @@ Use this table during the first minute of pattern recognition.
 
 ## 🧩 **Pattern Taxonomy**
 
-I struggled a lot through my journey to understand the patterns. In the end, what helped me is to creat my own short WIKIs - happy to share them here.
-
 ### **Documented Patterns**
 
-| Pattern Category | Signature Problems | Notes (if any) |
+| Pattern Category | Signature Problems | WIKI (if any) |
 |:-----------------|:-------------------|:----------|
-| **Arrays & Hashing** | [0217 Contains Duplicate](problems/0217-contains-duplicate/) • [0242 Valid Anagram](problems/0242-valid-anagram/) • [0001 Two Sum](problems/0001-two-sum/) • [0049 Group Anagrams](problems/0049-group-anagrams/) • [0347 Top K Frequent Elements](problems/0347-top-k-frequent-elements/) • [Premium Encode Decode Strings](problems/premium-encode-decode-strings/) • [0238 Product Of Array Except Self](problems/0238-product-of-array-except-self/) • [0036 Valid Sudoku](problems/0036-valid-sudoku/) • [0125 Valid Palindrome](problems/0125-valid-palindrome/) • [0128 Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence/) | [🚧 Coming soon](patterns/arrays_and_hashing/README.md) |
+| **Arrays & Hashing** | [0217 Contains Duplicate](problems/0217-contains-duplicate/) • [0242 Valid Anagram](problems/0242-valid-anagram/) • [0001 Two Sum](problems/0001-two-sum/) • [0049 Group Anagrams](problems/0049-group-anagrams/) • [0347 Top K Frequent Elements](problems/0347-top-k-frequent-elements/) • [Premium Encode Decode Strings](problems/premium-encode-decode-strings/) • [0238 Product Of Array Except Self](problems/0238-product-of-array-except-self/) • [0036 Valid Sudoku](problems/0036-valid-sudoku/) • [0125 Valid Palindrome](problems/0125-valid-palindrome/) • [0128 Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence/) | [Arrays & Hashing](patterns/arrays_and_hashing/README.md) |
 | **Stack** | 👥 [0150 Evaluate Reverse Polish Notation](problems/0150-evaluate-reverse-polish-notation/) • 👥 [0224 Basic Calculator](problems/0224-basic-calculator/) • [0020 Valid Parentheses](problems/0020-valid-parentheses/) • [0071 Simplify Path](problems/0071-simplify-path/) | [📚 WIKI: Stack](https://www.hellointerview.com/learn/code/stack/overview) • [📚 WIKI: Monotonic Stack](https://www.hellointerview.com/learn/code/stack/monotonic-stack) |
 | **Intervals** | [0228 Summary Ranges](problems/0228-summary-ranges/) • [0252 Meeting Rooms](problems/0252-meeting-rooms/) • [0057 Insert Interval](problems/0057-insert-interval/) • [0452 Minimum Number Of Arrows To Burst Balloons](problems/0452-minimum-number-of-arrows-to-burst-balloons/) | [📚 WIKI: Intervals](patterns/intervals) |
 | **Sliding Window** | [0209 Minimum Size Subarray Sum](problems/0209-minimum-size-subarray-sum/) • [Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters/) | [📚 WIKI: Sliding Window](patterns/sliding_window.md) |
@@ -159,10 +130,9 @@ I struggled a lot through my journey to understand the patterns. In the end, wha
 
 ## 🤖 Automation
 
-This repository uses a small automation pipeline to keep the pattern taxonomy in sync.
+This repository uses a small automation pipeline to keep the pattern taxonomy in sync and consistent.
 When a new problem is added with `pattern:` metadata in its README,  a GitHub Action automatically updates the taxonomy table.
 
-This ensures the repository remains consistent and free from manual bookkeeping.
 
 You can preview changes locally using:
 
@@ -181,46 +151,3 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
-| [0036-valid-sudoku](https://github.com/chilya-coder/dsa-notes/tree/main/0036-valid-sudoku/) | Medium |
-| [0128-longest-consecutive-sequence](https://github.com/chilya-coder/dsa-notes/tree/main/0128-longest-consecutive-sequence/) | Medium |
-| [0238-product-of-array-except-self](https://github.com/chilya-coder/dsa-notes/tree/main/0238-product-of-array-except-self/) | Medium |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0238-product-of-array-except-self](https://github.com/chilya-coder/dsa-notes/tree/main/0238-product-of-array-except-self/) | Medium |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
-| [0036-valid-sudoku](https://github.com/chilya-coder/dsa-notes/tree/main/0036-valid-sudoku/) | Medium |
-| [0128-longest-consecutive-sequence](https://github.com/chilya-coder/dsa-notes/tree/main/0128-longest-consecutive-sequence/) | Medium |
-| [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
-## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0036-valid-sudoku](https://github.com/chilya-coder/dsa-notes/tree/main/0036-valid-sudoku/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0125-valid-palindrome](https://github.com/chilya-coder/dsa-notes/tree/main/0125-valid-palindrome/) | Easy |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0125-valid-palindrome](https://github.com/chilya-coder/dsa-notes/tree/main/0125-valid-palindrome/) | Easy |
-| [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
-## Union-Find
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0128-longest-consecutive-sequence](https://github.com/chilya-coder/dsa-notes/tree/main/0128-longest-consecutive-sequence/) | Medium |
-<!---LeetCode Topics End-->
