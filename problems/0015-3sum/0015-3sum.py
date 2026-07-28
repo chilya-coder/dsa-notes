@@ -1,34 +1,25 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        #[-4, -1, -1, 0, 1, 2]
-        res = []
+        # Time Complexity: O(n^2)
+        # Space Complexity: O(n)
+        # - 4 [-1 -1 0 1 2]
+        #       l        r
 
-        nums = sorted(nums)
-        i = 0
-        while i < len(nums) - 2:
-            if i != 0:
-                if nums[i] == nums[i-1]:
-                    i += 1
-                    continue
-            target = -nums[i]
-            left, right = i + 1, len(nums) - 1
-            while left < right:
-                if nums[right] + nums[left] == target:
-                    res.append([nums[i], nums[right], nums[left]])
-                    right -= 1
-                    left += 1
-                    # Skip intervals on right
-                    while left < right and nums[right] == nums[right + 1]:
-                        right -= 1
-
-                    # Skip intervals on left
-                    while left < right and nums[left] == nums[left - 1]:
-                        left += 1
-
-                elif nums[right] + nums[left] > target:
-                    right -=1
+        res = set()
+        nums.sort()
+        for idx_n, num in enumerate(nums):
+            # TLE EDGE CASE - filter duplicates
+            if idx_n > 0 and num == nums[idx_n - 1]:
+                continue
+            l, r = idx_n + 1, len(nums) - 1 # enumerate returns tuple (index, value), + 1 works only with idx_n, not tuple
+            while l < r:
+                if num + nums[r] + nums[l] == 0:
+                    res.add((num, nums[r], nums[l])) # only hashable values in set (no lists)
+                    l += 1
+                    r -= 1
+                elif nums[l] + nums[r] + num < 0:
+                    l += 1
                 else:
-                    left += 1
-            i += 1
-
-        return res
+                    r -= 1
+        print(res)
+        return [list(item) for item in res]
