@@ -156,11 +156,13 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/chilya-coder/dsa-notes/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chilya-coder/dsa-notes/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/chilya-coder/dsa-notes/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chilya-coder/dsa-notes/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 ## Binary Search
@@ -171,4 +173,8 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/chilya-coder/dsa-notes/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
