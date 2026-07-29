@@ -1,25 +1,20 @@
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        # container is formed by x axis - width and y axis - height
-        left, right = 0, len(height) - 1
-        max_area = 0
+    def maxArea(self, heights: List[int]) -> int:
+        # Time Complexity: O(n)
+        # Space Complexity: O(1)
+        max_res = 0
 
-        # Invariant:
-        # We always keep the best area seen so far
-        # and move the pointer that limits the height
-        while left < right:
-            # Width is the distance between pointers
-            width = right - left
+        l, r = 0, len(heights) - 1
 
-            # Height is limited by the shorter wall
-            current_height = min(height[left], height[right])
-
-            area = width * current_height
-            max_area = max(max_area, area)
-            
-            if height[left] < height[right]:
-                left += 1
+        while l < r:
+            height = min(heights[l], heights[r])
+            # width is the last coordinte minust first one
+            width = r - l
+            # even with edge case [2 1 1 1 1 6] - we capture 2 6 as the best
+            max_res = max(max_res, height * width)
+            # we move (get rid of) the worst option only
+            if heights[l] < heights[r]:
+                l += 1
             else:
-                right -= 1
-
-        return max_area
+                r -= 1
+        return max_res
