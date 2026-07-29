@@ -7,16 +7,17 @@
     * `list`: $O(n)$
     * `set`, `dict`: $O(1)$
 
+5. **Distance = right_p - left_p + 1**
 ---
 
-## [1. Contains Duplicate](problems/0217-contains-duplicate/0217-contains-duplicate.py)
+## [1. Contains Duplicate](../../problems/0217-contains-duplicate/0217-contains-duplicate.py)
 
 1. We use a `set` to filter duplicates, taking $O(n)$ time to traverse all elements.
 2. If Sorted: we could use the **2 pointers** approach and optimize Space Complexity to $O(1)$.
 
 ---
 
-## [2. Valid Anagram](problems/0242-valid-anagram/0242-valid-anagram.py)
+## [2. Valid Anagram](../../problems/0242-valid-anagram/0242-valid-anagram.py)
 
 1. Edge Case: `if len(s) != len(t): return False`. Anagrams MUST have the same length.
 2. Anagram is a **permutation** of characters (all characters must be present in any order).
@@ -28,14 +29,14 @@
 
 ---
 
-## [3. Two Sum](problems/0001-two-sum/0001-two-sum.py)
+## [3. Two Sum](../../problems/0001-two-sum/0001-two-sum.py)
 
 1. Create a `dict` (`val -> index`) and check if the complementary value (`target - val`) exists on each iteration. Time: $O(n)$.
 2. If Sorted: we could use the **2 pointers** approach and optimize Space Complexity to $O(1)$.
 
 ---
 
-## [4. Group Anagrams](problems/0049-group-anagrams/0049-group-anagrams.py)
+## [4. Group Anagrams](../../problems/0049-group-anagrams/README.md)
 
 1. Create a `{word_pattern -> list(strs)}` dict and group anagrams together.
 2. The word pattern (dict key) must be sorted.
@@ -65,7 +66,7 @@
     > * `ord('b')` $\rightarrow$ 98
     > * `'d'`: `ord('d') - ord('a')` $\rightarrow$ $100 - 97 = 3$
 
-## [5. Top K Frequent Elements](problems/0347-top-k-frequent-elements/0347-top-k-frequent-elements.py)
+## [5. Top K Frequent Elements](../../problems/0347-top-k-frequent-elements/0347-top-k-frequent-elements.py)
 
 1. Calculate elements frequency Counter(nums)
 2. Keep only top k elements by using balanced binary tree (heap)
@@ -83,7 +84,7 @@
         return [val for _, val in heap]
 ```
 
-## [6. Encode and Decode Strings](problems/premium-encode-decode-strings/encode-decode-strings.py)
+## [6. Encode and Decode Strings](../../problems/premium-encode-decode-strings/encode-decode-strings.py)
 
 1. Pattern: ```25#Hello2#Hi```, use ```counter#``` as delimeter (for 2+ digits values included)
 2. To decode digit:
@@ -98,7 +99,7 @@
 
 3.```word = s[i : i + digit]```
 
-## [7. Products of Array Except Self](problems/0238-product-of-array-except-self/0238-product-of-array-except-self.py)
+## [7. Products of Array Except Self](../../problems/0238-product-of-array-except-self/0238-product-of-array-except-self.py)
 
 ```python
 class Solution:
@@ -122,7 +123,7 @@ class Solution:
         return res
 ```
 
-## [8. Valid Sudoku](problems/0036-valid-sudoku/0036-valid-sudoku.py)
+## [8. Valid Sudoku](../../problems/0036-valid-sudoku/0036-valid-sudoku.py)
 
 1. Keep defaultdicts (auto handle KeyError) for col, row and sub-boxes uniqueness
 
@@ -141,7 +142,7 @@ class Solution:
 
 3. For checking boxes (3x3) use ```boxes[(idx_r // 3, idx_c // 3)]```
 
-## [9. Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py)
+## [9. Longest Consecutive Sequence](../../problems/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py)
 
 1. IMPORTANT! We could have 2GB input full of duplicates, so first **convert input to set**. Traverse this set.
 2. Start element is when ```i - 1``` in nums_set doesn't exist
