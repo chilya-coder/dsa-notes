@@ -159,6 +159,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | ------- | ------- |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -166,11 +167,13 @@ Constructive feedback and collaboration opportunities are always welcome!
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0344-reverse-string](https://github.com/chilya-coder/dsa-notes/tree/main/0344-reverse-string/) | Easy |
+| [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
+| [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## String
 | Problem Name | Difficulty |
