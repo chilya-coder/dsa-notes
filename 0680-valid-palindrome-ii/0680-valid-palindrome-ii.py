@@ -1,13 +1,10 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        r,l = len(s) - 1, 0
-        print(s[l])
-        print(s[r])
-        while r > l:
-            if s[r] != s[l]:
+    def isPalindrome(self, left: int, right: int, s: str) -> bool:
+        while right > left:
+            if s[right] != s[left]:
                 return False
-            r -= 1
-            l += 1
+            right -= 1
+            left += 1
         return True
 
     def validPalindrome(self, s: str) -> bool:
@@ -15,8 +12,8 @@ class Solution:
         r,l = len(s) - 1, 0
         while l < r:
             if s[r] != s[l]:
-                if self.isPalindrome(s[l:r]) == False:
-                    if self.isPalindrome(s[l + 1 :r + 1]) == False:
+                if self.isPalindrome(l + 1, r, s) == False:
+                    if self.isPalindrome(l, r - 1, s) == False:
                         return False
                     else:
                         return True
