@@ -159,6 +159,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | ------- | ------- |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## Two Pointers
@@ -167,6 +168,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0344-reverse-string](https://github.com/chilya-coder/dsa-notes/tree/main/0344-reverse-string/) | Easy |
+| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
@@ -175,6 +177,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
+| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## String
@@ -186,5 +189,6 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
 <!---LeetCode Topics End-->
