@@ -159,6 +159,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | ------- | ------- |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/chilya-coder/dsa-notes/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
@@ -196,6 +197,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/chilya-coder/dsa-notes/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
 | [2215-find-the-difference-of-two-arrays](https://github.com/chilya-coder/dsa-notes/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 <!---LeetCode Topics End-->
