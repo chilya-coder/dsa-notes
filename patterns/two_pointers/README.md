@@ -5,8 +5,8 @@ The key distinction is **pointer responsibility**:
 
 | Sub-Pattern | Pointer Roles | Direction | Typical Signal |
 |:------------|:-------------|:----------|:---------------|
-| [Read / Write Compression](read_write_compression.md) | One reads, one writes | Same direction (→→) | Remove, Filter, Deduplicate, In-place |
-| [Classic Two Pointers](classic_two_pointers.md) | Both explore | Opposite directions (←→) or reverse (←←) | Sorted, Target Sum, Palindrome, Merge |
+| [Fast/Slow Pointers](./fast_slow_pointers.md) | One reads, one writes | Same direction (→→) | Remove, Filter, Deduplicate, In-place |
+| [Classic Two Pointers](./classic_two_pointers.md) | Both explore | Opposite directions (←→) or reverse (←←) | Sorted, Target Sum, Palindrome, Merge |
 
 ### Key insight
 
