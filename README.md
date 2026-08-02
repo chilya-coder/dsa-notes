@@ -169,6 +169,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | ------- | ------- |
 | [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0344-reverse-string](https://github.com/chilya-coder/dsa-notes/tree/main/0344-reverse-string/) | Easy |
 | [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
@@ -185,6 +186,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0344-reverse-string](https://github.com/chilya-coder/dsa-notes/tree/main/0344-reverse-string/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
@@ -200,4 +202,8 @@ Constructive feedback and collaboration opportunities are always welcome!
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/chilya-coder/dsa-notes/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
 | [2215-find-the-difference-of-two-arrays](https://github.com/chilya-coder/dsa-notes/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 <!---LeetCode Topics End-->
