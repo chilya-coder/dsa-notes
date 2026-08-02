@@ -186,6 +186,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | ------- | ------- |
 | [0344-reverse-string](https://github.com/chilya-coder/dsa-notes/tree/main/0344-reverse-string/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/chilya-coder/dsa-notes/tree/main/1768-merge-strings-alternately/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -195,5 +196,6 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
 | [2215-find-the-difference-of-two-arrays](https://github.com/chilya-coder/dsa-notes/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 <!---LeetCode Topics End-->
