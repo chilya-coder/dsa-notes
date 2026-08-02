@@ -162,6 +162,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
+| [2215-find-the-difference-of-two-arrays](https://github.com/chilya-coder/dsa-notes/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -191,4 +192,8 @@ Constructive feedback and collaboration opportunities are always welcome!
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2215-find-the-difference-of-two-arrays](https://github.com/chilya-coder/dsa-notes/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 <!---LeetCode Topics End-->
