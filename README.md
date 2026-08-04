@@ -192,6 +192,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/chilya-coder/dsa-notes/tree/main/1768-merge-strings-alternately/) | Easy |
+| [2264-largest-3-same-digit-number-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/2264-largest-3-same-digit-number-in-string/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
