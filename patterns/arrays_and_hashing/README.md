@@ -144,6 +144,8 @@ class Solution:
 
 ## [9. Longest Consecutive Sequence](../../problems/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py)
 
+0. Use for loop since the input order is chaotic (idx doesn't matter)
 1. IMPORTANT! We could have 2GB input full of duplicates, so first **convert input to set**. Traverse this set.
 2. Start element is when ```i - 1``` in nums_set doesn't exist
-3. To return distance -> substract j - i -> end_point - start_point
+3. Maintain streak variable to find max streak
+// 3. To return distance -> substract j - i -> end_point - start_point - optional, IMO can be easily messed up during interview to count i/j.

@@ -103,7 +103,8 @@ Use this table during the first minute of pattern recognition.
 | **Simplify Path** | Split string and use stack for O(1) del/adding elements | **path.split("/")** for splitting; to return string with delimiter back **"/" + "/".join(stack)** | Simplify Path, UNIX-style file system |
 | **Valid Parentheses** | Use stack | Use stack for adding enclosing characters. E.g. '{' would match to '}' in stack. | Open/closing brackets, parentheses, matching |
 | **Valid Anagram** | Chars frequency should be equal | Pythonic way: Counter(s) == Counter(t) | Rearranging letters, permutation |
-| **Top k elements** | Use (min) heap for sort| Pythonic way: heapq.heappush(heap, (freq, key)); heapq.heappop(heap) | Top K elements |
+| **Top k elements** | Use (min) heap for sort | Pythonic way: heapq.heappush(heap, (freq, key)); heapq.heappop(heap) | Top K elements |
+| **Longest sequence** | Set for filtering duplicates | Filter duplicates. Start element is the one that doesn't have precessor (x-1). Traverse using FOR loop (input order is chaotic) | Count sequence |
 
 ---
 
@@ -151,79 +152,3 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
-| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/chilya-coder/dsa-notes/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
-| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
-| [0739-daily-temperatures](https://github.com/chilya-coder/dsa-notes/tree/main/0739-daily-temperatures/) | Medium |
-| [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
-| [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
-| [1700-number-of-students-unable-to-eat-lunch](https://github.com/chilya-coder/dsa-notes/tree/main/1700-number-of-students-unable-to-eat-lunch/) | Easy |
-| [2215-find-the-difference-of-two-arrays](https://github.com/chilya-coder/dsa-notes/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
-| [0344-reverse-string](https://github.com/chilya-coder/dsa-notes/tree/main/0344-reverse-string/) | Easy |
-| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
-| [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
-| [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
-| [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
-| [1768-merge-strings-alternately](https://github.com/chilya-coder/dsa-notes/tree/main/1768-merge-strings-alternately/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0015-3sum](https://github.com/chilya-coder/dsa-notes/tree/main/0015-3sum/) | Medium |
-| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
-| [0905-sort-array-by-parity](https://github.com/chilya-coder/dsa-notes/tree/main/0905-sort-array-by-parity/) | Easy |
-| [0977-squares-of-a-sorted-array](https://github.com/chilya-coder/dsa-notes/tree/main/0977-squares-of-a-sorted-array/) | Easy |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
-| [0344-reverse-string](https://github.com/chilya-coder/dsa-notes/tree/main/0344-reverse-string/) | Easy |
-| [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
-| [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
-| [1768-merge-strings-alternately](https://github.com/chilya-coder/dsa-notes/tree/main/1768-merge-strings-alternately/) | Easy |
-| [2264-largest-3-same-digit-number-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/2264-largest-3-same-digit-number-in-string/) | Easy |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0455-assign-cookies](https://github.com/chilya-coder/dsa-notes/tree/main/0455-assign-cookies/) | Easy |
-| [0680-valid-palindrome-ii](https://github.com/chilya-coder/dsa-notes/tree/main/0680-valid-palindrome-ii/) | Easy |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/chilya-coder/dsa-notes/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
-| [1496-path-crossing](https://github.com/chilya-coder/dsa-notes/tree/main/1496-path-crossing/) | Easy |
-| [2215-find-the-difference-of-two-arrays](https://github.com/chilya-coder/dsa-notes/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
-## String Matching
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0739-daily-temperatures](https://github.com/chilya-coder/dsa-notes/tree/main/0739-daily-temperatures/) | Medium |
-| [1700-number-of-students-unable-to-eat-lunch](https://github.com/chilya-coder/dsa-notes/tree/main/1700-number-of-students-unable-to-eat-lunch/) | Easy |
-## Monotonic Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0739-daily-temperatures](https://github.com/chilya-coder/dsa-notes/tree/main/0739-daily-temperatures/) | Medium |
-## Queue
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1700-number-of-students-unable-to-eat-lunch](https://github.com/chilya-coder/dsa-notes/tree/main/1700-number-of-students-unable-to-eat-lunch/) | Easy |
-## Simulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1700-number-of-students-unable-to-eat-lunch](https://github.com/chilya-coder/dsa-notes/tree/main/1700-number-of-students-unable-to-eat-lunch/) | Easy |
-<!---LeetCode Topics End-->
