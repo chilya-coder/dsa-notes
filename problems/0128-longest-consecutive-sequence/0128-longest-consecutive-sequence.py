@@ -5,7 +5,10 @@ class Solution:
         max_length = 0
 
         nums_set = set(nums)
-        # IMPORTANT! if we have a lot of duplicates in input list, use nums_set instead of nums
+        # IMPORTANT! filter duplicates first, otherwise we will have TLE
+        # 1. By the task, we don't care about input order (it has chaotic order)
+        # 2. Therefore we traverse using for loop.
+        # 3. The start element is the one that doesn't have a predecessor (i - 1) in the set.       
         for i in nums_set:
             if i - 1 in nums_set:
                 continue
