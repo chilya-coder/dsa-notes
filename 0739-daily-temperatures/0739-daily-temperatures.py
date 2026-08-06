@@ -1,15 +1,21 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        n = len(temperatures)
-        res = [0] * n
-        stack = []  # Храним только индексы: [idx1, idx2, ...]
+        # Space Complexity: O(n)
+        # Time Complexity: O(n)
 
-        for i, temp in enumerate(temperatures):
-            # Пока стек не пуст и текущая температура строго больше температуры на вершине стека
-            while stack and temperatures[stack[-1]] < temp:
-                prev_idx = stack.pop()
-                res[prev_idx] = i - prev_idx
-            
-            stack.append(i)
+        # Pattern: Monotonic stack
+        # We can add only lower value on the top of stack
+        # If the value is bigger than exisiting in stack we have to update result array with the substraction (current_index - stack_top_value_index)
 
+        #[38, 1]
+        #[30,0]
+        stack = []
+        # We need to pre-fill all zeros
+        res = [0] * len(temperatures)
+
+        for idx, i in enumerate(temperatures):
+            while stack and i > temperatures[stack[-1]]:
+                prev_index = stack.pop()
+                res[prev_index] = idx - prev_index
+            stack.append(idx)
         return res
