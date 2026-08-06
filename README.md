@@ -105,6 +105,7 @@ Use this table during the first minute of pattern recognition.
 | **Valid Anagram** | Chars frequency should be equal | Pythonic way: Counter(s) == Counter(t) | Rearranging letters, permutation |
 | **Top k elements** | Use (min) heap for sort | Pythonic way: heapq.heappush(heap, (freq, key)); heapq.heappop(heap) | Top K elements |
 | **Longest sequence** | Set for filtering duplicates | Filter duplicates. Start element is the one that doesn't have precessor (x-1). Traverse using FOR loop (input order is chaotic) | Count sequence |
+| **Next Greater** | Monotonic Stack | Prefill empty array. Monotonic stack holds indices of smaller values; pop when top element in stack is smaller than incoming one | Daily temperatures |
 
 ---
 
@@ -152,18 +153,3 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0739-daily-temperatures](https://github.com/chilya-coder/dsa-notes/tree/main/0739-daily-temperatures/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0739-daily-temperatures](https://github.com/chilya-coder/dsa-notes/tree/main/0739-daily-temperatures/) | Medium |
-## Monotonic Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0739-daily-temperatures](https://github.com/chilya-coder/dsa-notes/tree/main/0739-daily-temperatures/) | Medium |
-<!---LeetCode Topics End-->
