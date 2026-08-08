@@ -1,39 +1,34 @@
 from typing import List
 
 class Solution:
-
+    # Time Complexity: O(n), where n is all symbols in s
+    # Space Complexity: O(n), where n is all symbols in s
     def encode(self, strs: List[str]) -> str:
-        delimeter = '#'
-        encoded_string = ""
-
+        # ["Hello", "world"]
+        # "5#Hello5#world
+        # chars_counter# -> delimeter
+        result = ""
         for s in strs:
-            encoded_string += str (len(s))
-            encoded_string += delimeter
-            encoded_string +=s
-
-        return encoded_string
+            result += str(len(s)) + "#" + s
+        return result
 
     def decode(self, s: str) -> List[str]:
-        if len(s) == 0: return []
-        
-        decoded_string = list()
-        digit = 0
+        # "5#Hellow5#World"
+        # Parse each n# and add " " between
+        decoded_list = []
         i = 0
-
-        # 5#Hello2#Hi
         while i < len(s):
-            digit = 0
+            word_len = 0
             while s[i] != '#':
-                digit *= 10
-                digit += int(s[i])
+                word_len *= 10
+                word_len += int(s[i])
                 i += 1
+            i += 1 # skip delimeter
 
-            i += 1 # skip '#'
-            word = s[i : i + digit]
-            decoded_string.append(word)
-            i += digit
-
-        return decoded_string
+            word = s[i:i + word_len]
+            i += word_len
+            decoded_list.append(word)
+        return decoded_list
 
 if __name__ == "__main__":
     solution = Solution()
