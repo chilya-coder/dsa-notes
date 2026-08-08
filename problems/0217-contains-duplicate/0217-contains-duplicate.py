@@ -1,12 +1,12 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        # Space Complexity: O(n)
+        # return len(nums) != len(set(nums))
         # Time Complexity: O(n)
+        # Space Complexity: O(n)
+        nums_set = set()
 
-        # assume input list nums is UNSORTED, otherwise we can solve it with 2-pointers approach O(1)
-        unique_set = set()
-
-        for i in nums:
-            if i in unique_set: return True
-            unique_set.add(i)
+        for num in nums:
+            if num in nums_set:
+                return True
+            nums_set.add(num)
         return False

@@ -8,12 +8,18 @@
     * `set`, `dict`: $O(1)$
 
 5. **Distance = right_p - left_p + 1**
+
 ---
 
 ## [1. Contains Duplicate](../../problems/0217-contains-duplicate/0217-contains-duplicate.py)
 
 1. We use a `set` to filter duplicates, taking $O(n)$ time to traverse all elements.
 2. If Sorted: we could use the **2 pointers** approach and optimize Space Complexity to $O(1)$.
+3. Pythonic way:
+
+```python
+    return len(nums) != len(set(nums))
+```
 
 ---
 
@@ -26,6 +32,13 @@
     ```python
     Counter(s) == Counter(t)
     ```
+
+4. Invariant: char must be always present in dict and the quantity of these chars must be > 0
+
+```python
+            if char_t not in s_map or s_map[char_t] == 0:
+                return False
+```
 
 ---
 

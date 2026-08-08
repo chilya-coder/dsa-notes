@@ -1,21 +1,19 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        # Space Complexity: O(n)
         # Time Complexity: O(n)
+        # Space Complexity: O(1) because 26 latin characters
+        
         if len(s) != len(t): return False
+        # Anagram is the permutation -> we need to have exact same counter of characters
+        # but different order
+
         # return Counter(s) == Counter(t)
 
-        char_freq = defaultdict(int)
+        s_map = Counter(s)
 
-        for c_s in s:
-            char_freq[c_s] += 1
-        
-        for c_t in t:
-            if c_t not in char_freq:
+        for char_t in t:
+            if char_t not in s_map or s_map[char_t] == 0:
                 return False
-
-            char_freq[c_t] -= 1
-
-            if char_freq[c_t] == 0:
-                del char_freq[c_t]
+            # avoid deleting the key from the map, just decrease the counter
+            s_map[char_t] -= 1
         return True
