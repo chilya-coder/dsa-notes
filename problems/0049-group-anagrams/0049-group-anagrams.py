@@ -1,17 +1,14 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        # Time Complexity: O (n * k logk)
-        # Time Space: O (n * k)
+        # Time Complexity: O(n * m * log(m)), we sort characters inside of each word, not the word itself
+        # Space Complexity: O(n*m) all chars and its quantity
+        # [sorted_key] -> [value1, value2, ..]
 
+        pattern_matches = defaultdict(list)
 
-        # creates empty list value if key doesn't exist (KeyError)
-        my_dict = defaultdict(list)
-
-        for s in strs:
-            # key in hash table MUST be hashable (immutable)
-            # when we sort string it returns list (mutable)
-            
-            sorted_s = tuple(sorted(s))
-            # alternative: sorted_s = ('').join(sorted(s))
-            my_dict[sorted_s].append(s)
-        return list (my_dict.values())
+        for word in strs:
+            sorted_str = sorted(word) # list of chars, not hashable
+            # ''.join(sorted_str) is also possible
+            pattern_matches[tuple(sorted_str)].append(word)
+        
+        return list(pattern_matches.values())

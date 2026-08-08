@@ -1,14 +1,14 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Input is UNSORTED (otherwise we would use 2-pointers)
         # Space Complexity: O(n)
         # Time Complexity: O(n)
-        
-        # Input array is UNSORTED, so we use a dict.
-        # However, if the input array is SORTED, we can use two pointers to find the solution in O(n) time and O(1) space.
-        val_index = dict()
-        for idx, val in enumerate(nums):
-            complementary = target - val
-            if complementary in val_index:
-                return [idx, val_index[complementary]]
-            val_index[val] = idx
+        pairs = dict()
+
+        # [value] -> [index]
+
+        for idx_num, num in enumerate(nums):
+            if target - num in pairs:
+                return [pairs[target - num], idx_num]
+            pairs[num] = idx_num
         return []
