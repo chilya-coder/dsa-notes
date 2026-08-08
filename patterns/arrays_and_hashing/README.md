@@ -81,9 +81,10 @@
 
 ## [5. Top K Frequent Elements](../../problems/0347-top-k-frequent-elements/0347-top-k-frequent-elements.py)
 
-1. Calculate elements frequency Counter(nums)
-2. Keep only top k elements by using balanced binary tree (heap)
-3. Time Complexity: O(n log k)
+1. Calculate elements frequency
+2. Keep only top k elements by using heap (balanced binary tree)
+3. Time Complexity: O(n log k), where k is how many elements are processed in heap
+4. Space Complexity O(n + k), n - elements in dict, k - in heap
 
 ```python
         my_dict = Counter(nums)
