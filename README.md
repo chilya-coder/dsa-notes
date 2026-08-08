@@ -159,6 +159,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
+| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/chilya-coder/dsa-notes/tree/main/0217-contains-duplicate/) | Easy |
 | [0853-car-fleet](https://github.com/chilya-coder/dsa-notes/tree/main/0853-car-fleet/) | Medium |
 ## Stack
@@ -168,6 +169,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/chilya-coder/dsa-notes/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
 | [0853-car-fleet](https://github.com/chilya-coder/dsa-notes/tree/main/0853-car-fleet/) | Medium |
@@ -179,10 +181,12 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
+| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/chilya-coder/dsa-notes/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
 | [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
 <!---LeetCode Topics End-->
