@@ -14,8 +14,14 @@ Create dict with character counts (from list):
 freq_map = Counter(char)
 ```
 
-Returns reference to the value stored under that key:
+If key doesn't exist - set [] value, else return existing value
 
 ```python
 key_to_words.setdefault(sorted_s, [])
+```
+
+However, it's more common to use this to avoid KeyError
+
+```python
+test_dict = defaultdict(list)
 ```
