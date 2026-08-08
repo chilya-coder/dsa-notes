@@ -9,9 +9,7 @@ class Solution:
         s_map = Counter(s)
 
         for char_t in t:
-            if char_t in s_map:
-                s_map[char_t] -= 1
-                if s_map[char_t] <= 0:
-                    del s_map[char_t]
-        print(s_map)
-        return len(s_map) == 0
+            if char_t not in s_map or s_map[char_t] == 0:
+                return False
+            s_map[char_t] -= 1
+        return True
