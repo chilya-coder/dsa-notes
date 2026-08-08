@@ -5,7 +5,7 @@
 *Quick recall system for acing the coding interviews*
 
 ![LeetCode Progress](https://img.shields.io/badge/LeetCode_Progress-46%2F150_%2830%25%29-orange?style=for-the-badge&logo=leetcode)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202026-blue?style=for-the-badge&logo=calendar)](https://github.com/yuliiachimyrys/dsa-notes)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202026-blue?style=for-the-badge&logo=calendar)](https://github.com/yuliiachimyrys/dsa-notes)
 [![Language](https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python)](https://python.org)
 
 </div>
@@ -64,11 +64,15 @@ python3 scripts/update_taxonomy.py --dry-run
 
 ## 📁 `/patterns/`
 
-The **Strategic Layer**. Contains the "why" and "how". Distributed into dedicated folders by topics.
+The **Strategic Layer**. Contains the "when", "why" and "how". Distributed into dedicated folders by topics.
 
 ## 📁 `/problems/`
 
 The **Implementation Layer**. Contains clean, optimal Python solutions mapped to their specific pattern. Time and Space Complexity incl.
+
+## 📁 `/python_notes/`
+
+The **Syntax Pitfalls**. Contains my own collection of syntax traps from the debugging journey in Python.
 
 ----
 
@@ -153,63 +157,3 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
-| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
-| [0217-contains-duplicate](https://github.com/chilya-coder/dsa-notes/tree/main/0217-contains-duplicate/) | Easy |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-| [0853-car-fleet](https://github.com/chilya-coder/dsa-notes/tree/main/0853-car-fleet/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0853-car-fleet](https://github.com/chilya-coder/dsa-notes/tree/main/0853-car-fleet/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
-| [0217-contains-duplicate](https://github.com/chilya-coder/dsa-notes/tree/main/0217-contains-duplicate/) | Easy |
-| [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-| [0853-car-fleet](https://github.com/chilya-coder/dsa-notes/tree/main/0853-car-fleet/) | Medium |
-## Monotonic Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0853-car-fleet](https://github.com/chilya-coder/dsa-notes/tree/main/0853-car-fleet/) | Medium |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
-| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
-| [0217-contains-duplicate](https://github.com/chilya-coder/dsa-notes/tree/main/0217-contains-duplicate/) | Easy |
-| [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0049-group-anagrams](https://github.com/chilya-coder/dsa-notes/tree/main/0049-group-anagrams/) | Medium |
-| [0242-valid-anagram](https://github.com/chilya-coder/dsa-notes/tree/main/0242-valid-anagram/) | Easy |
-## Divide and Conquer
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-## Heap (Priority Queue)
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-## Bucket Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-## Counting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-## Quickselect
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0347-top-k-frequent-elements](https://github.com/chilya-coder/dsa-notes/tree/main/0347-top-k-frequent-elements/) | Medium |
-<!---LeetCode Topics End-->
