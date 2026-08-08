@@ -100,7 +100,7 @@
 
 ## [6. Encode and Decode Strings](../../problems/premium-encode-decode-strings/encode-decode-strings.py)
 
-1. Pattern: ```25#Hello2#Hi```, use ```counter#``` as delimeter (for 2+ digits values included)
+1. Pattern: ```25#Hello2#Hi```, use ```counter#``` as the delimeter (for 2+ digits values)
 2. To decode digit:
 
 ```python
@@ -111,7 +111,7 @@
         i += 1
 ```
 
-3.```word = s[i : i + digit]```
+3. Pythonic way: ```word = s[i : i + end_pos]``` instead of a while loop to get the word from start pos to the end one
 
 ## [7. Products of Array Except Self](../../problems/0238-product-of-array-except-self/0238-product-of-array-except-self.py)
 
