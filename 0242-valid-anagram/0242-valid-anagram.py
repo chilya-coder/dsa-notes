@@ -1,5 +1,7 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        # Time Complexity: O(n)
+        # Space Complexity: O(1) because 26 latin characters
         if len(s) != len(t): return False
         # anagram is the permutation -> we need to have exact same counter of characters
         # but different order
