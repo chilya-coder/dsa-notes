@@ -145,3 +145,15 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/1422-maximum-score-after-splitting-a-string/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/1422-maximum-score-after-splitting-a-string/) | Easy |
+<!---LeetCode Topics End-->
