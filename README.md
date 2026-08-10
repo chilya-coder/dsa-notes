@@ -76,18 +76,6 @@ The **Syntax Pitfalls**. Contains my own collection of syntax traps from the deb
 
 ----
 
-## How To Use This Repository?
-
-This repository is designed as a pre-interview refresher, not a full algorithm textbook.
-
-Suggested workflow:
-
-1. Review Pattern Taxonomy (check my own WIKI for deepdive) & Signals to refresh recognition signals
-2. Revisit Pattern READMEs to recall invariants and templates
-3. Refresh solved problems
-
----
-
 ## 🧭 **Pattern Signals**
 
 Use this table during the first minute of pattern recognition.
