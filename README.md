@@ -159,6 +159,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/chilya-coder/dsa-notes/tree/main/0011-container-with-most-water/) | Medium |
 | [0896-monotonic-array](https://github.com/chilya-coder/dsa-notes/tree/main/0896-monotonic-array/) | Easy |
 | [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
 | [1929-concatenation-of-array](https://github.com/chilya-coder/dsa-notes/tree/main/1929-concatenation-of-array/) | Easy |
@@ -186,4 +187,12 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/chilya-coder/dsa-notes/tree/main/0011-container-with-most-water/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/chilya-coder/dsa-notes/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
