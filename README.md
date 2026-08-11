@@ -160,9 +160,30 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0896-monotonic-array](https://github.com/chilya-coder/dsa-notes/tree/main/0896-monotonic-array/) | Easy |
+| [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
 | [1929-concatenation-of-array](https://github.com/chilya-coder/dsa-notes/tree/main/1929-concatenation-of-array/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1929-concatenation-of-array](https://github.com/chilya-coder/dsa-notes/tree/main/1929-concatenation-of-array/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
+## Bubble Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
 <!---LeetCode Topics End-->
