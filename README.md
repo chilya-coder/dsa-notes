@@ -159,6 +159,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0896-monotonic-array](https://github.com/chilya-coder/dsa-notes/tree/main/0896-monotonic-array/) | Easy |
 | [1929-concatenation-of-array](https://github.com/chilya-coder/dsa-notes/tree/main/1929-concatenation-of-array/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
