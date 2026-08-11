@@ -2,6 +2,8 @@
 
 ---
 
+## Traversing
+
 1. Traverse through list
 
 ```python
@@ -60,4 +62,21 @@ E.g. tuple unpacking
 
 ```python
 return [num for freq, num in heap]
+```
+
+## Append vs Extend
+
+Useful for [Relative sorted array problem](https://neetcode.io/problems/relative-sort-array/question)
+
+```python
+res = []
+# 1. append
+res.append([2, 2, 2])
+# res: [[2, 2, 2]]
+
+# 2. extend
+res = []
+res.extend([2, 2, 2])
+# res: [2, 2, 2]
+
 ```
