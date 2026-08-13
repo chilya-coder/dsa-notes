@@ -151,6 +151,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [1422-maximum-score-after-splitting-a-string](https://github.com/chilya-coder/dsa-notes/tree/main/1422-maximum-score-after-splitting-a-string/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -171,6 +172,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [1122-relative-sort-array](https://github.com/chilya-coder/dsa-notes/tree/main/1122-relative-sort-array/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -200,4 +202,8 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/chilya-coder/dsa-notes/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
