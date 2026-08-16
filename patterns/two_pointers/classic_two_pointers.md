@@ -78,9 +78,11 @@ Two pointers on two different strings: one advances on `s`, the other on `t`. Wh
 
 ### [167. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
-Sorted array — if sum is too large, move `right` left; if too small, move `left` right.
+If sum is too large, move `right` left; if too small, move `left` right.
 
 ### [15. 3Sum](https://leetcode.com/problems/3sum/)
+
+IMPROTANT: SORT input.
 
 Fix one element, then run classic two-pointer on the remaining sorted subarray. Skip duplicates on all three pointer positions.
 
