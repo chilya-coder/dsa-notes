@@ -151,6 +151,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -160,4 +161,8 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
 <!---LeetCode Topics End-->
