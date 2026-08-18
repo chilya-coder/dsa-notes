@@ -7,9 +7,3 @@ The key distinction is **pointer responsibility**:
 |:------------|:-------------|:----------|:---------------|
 | [Fast/Slow Pointers](./fast_slow_pointers.md) | One reads, one writes | Same direction (→→) | Remove, Filter, Deduplicate, In-place |
 | [Classic Two Pointers](./classic_two_pointers.md) | Both explore | Opposite directions (←→) or reverse (←←) | Sorted, Target Sum, Palindrome, Merge |
-
-### Key insight
-
-Two pointers are not about "two indexes".
-They are about **separating responsibilities**:
-one pointer reads, another defines what is valid — or both converge toward a solution from different ends.
