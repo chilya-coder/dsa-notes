@@ -116,7 +116,7 @@ Use this table during the first minute of pattern recognition.
 | **Greedy - Optimization** | [Gas Station](problems/0134-gas-station/) • [Best Time to Buy/Sell Stock](problems/0121-best-time-to-buy-and-sell-stock/) • [Best Time to Buy/Sell Stock II](problems/0122-best-time-to-buy-and-sell-stock-ii/) • [Jump Game](problems/0055-jump-game/) • [Jump Game II](problems/0045-jump-game-ii/) • [Assign Cookies](problems/0455-assign-cookies/) | [📚 WIKI: Greedy](patterns/greedy/README.md) |
 | **Greedy – Construction** | [Roman to Integer](problems/0013-roman-to-integer/)| [📚 WIKI: Greedy](patterns/greedy/README.md)|
 | **Voting / Cancellation (Boyer-Moore)** | [Majority Element](problems/0169-majority-element/) | [📚 WIKI: Boyer-Moore Voting](patterns/boyer_moore_voting.md) |
-| **Design** | 👥 [Insert Delete GetRandom O(1)](problems/0380-insert-delete-getrandom-o1/) | [📚 WIKI: Design DS Problems](patterns/design_problems.md) |
+| **Design** | 👥 [Insert Delete GetRandom O(1)](problems/0380-insert-delete-getrandom-o1/) • [0155 Min Stack](problems/0155-min-stack/) | [📚 WIKI: Design DS Problems](patterns/design_problems.md) |
 | **In-Place Swap** | [Rotate Array](problems/0189-rotate-array/) | [📚 WIKI: In-Place Swap](patterns/in_place_swap.md) |
 | **Array / String** | [Longest Common Prefix](problems/0014-longest-common-prefix/) | - |
 
