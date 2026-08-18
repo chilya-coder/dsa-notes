@@ -1,12 +1,11 @@
 # General Notes
 
-1. **Syntax vs Logic:** Separate actual problem solution from Python syntax.
-2. **Data State:** Is data sorted? It's crucial for choosing the correct pattern.
-3. **Visualization:** Visualize data whenever possible.
+1. **Python Syntax vs Logic:**
+2. **Is data sorted?**
+3. **Visualization:**
 4. **Lookup Time Complexity:**
     * `list`: $O(n)$
     * `set`, `dict`: $O(1)$
-
 5. **Distance = right_p - left_p + 1**
 
 ---
