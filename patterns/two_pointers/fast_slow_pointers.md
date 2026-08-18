@@ -1,6 +1,6 @@
 # Fast/Slow (Read/Write) Pointers
 
-This pattern is used for **in-place filtering** of arrays where elements need to be kept or discarded based on a condition.
+This pattern is used for **in-place filtering**.
 
 ---
 
@@ -17,7 +17,7 @@ Everything at or after `write` is garbage.
 ```
 [ valid elements | garbage ]
                ↑
-             write
+              write
 ```
 
 ---
@@ -25,7 +25,7 @@ Everything at or after `write` is garbage.
 ## When to use
 
 - "Remove element", "Remove duplicates", "Filter in-place"
-- The problem requires $O(1)$ extra space
+- The problem requires $O(1)$ space
 - Input is often (but not always) sorted
 
 ---
