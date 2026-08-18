@@ -145,24 +145,3 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
-| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
-## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/chilya-coder/dsa-notes/tree/main/0001-two-sum/) | Easy |
-<!---LeetCode Topics End-->
