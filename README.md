@@ -16,15 +16,9 @@
 
 This repository is a **quick recall system** for the **[Neetcode 150 LC](https://leetcode.com/problem-list/plakya4j//)**.
 
-Like most developers, I struggled A LOT when it came to DSA interviews.
+I struggled A LOT when it came to DSA interviews. My first approach was memorization of solution, but then I've realized: strong algorithmic performance is not about that, but **inductive thinking**.
 
-Over time, I learnt that strong algorithmic performance is not about memorization but about **inductive thinking**.
-
-When solving problems, I focus on:
-
-- recognizing the **signals** that hint at a specific pattern
-- maintaining the correct **invariants**
-- and building an intuition for why a solution works
+Problems have clear **signals** that hint at a specific pattern and their own **invariants**.
 
 This repository is where I collect those notes - something I (or anyone) can revisit right before the interview.
 
@@ -32,22 +26,20 @@ FAQ:
 <details>
 <summary><b>What programming language to use for DSA?</b></summary>
 
-TL;DR: Python.
-
-Since university I used Java, but I made a strategic move to Python in 2025 for the technical interviews. When time is the most critical constraint, Python allows to bypass the boilerplate and focus 100% on logic rather than syntax.
+Python allows to bypass the boilerplate and focus 100% on logic rather than syntax. All solutions are implemented using python3 here.
 
 </details>
 
 <details>
 <summary><b>How do you sync LC solutions to GitHub?</b></summary>
 
-It's auto-synced using [LeetHub-3.0](https://github.com/QasimWani/LeetHub) browser extension.
+Auto-synced using [LeetHub-3.0](https://github.com/QasimWani/LeetHub).
 
 </details>
 <details>
 <summary><b>How do you automate your pattern taxonomy?</b></summary>
 
-If anything is done twice - I automate it. The taxonomy table below is automatically updated via a CI/CD pipeline. 
+I automate anything that is done twice. The taxonomy table below is automatically updated via a CI/CD pipeline. 
 A custom Python script parses the `pattern:` metadata from individual problem READMEs to prevent manual bookkeeping.
 
 To preview the taxonomy changes locally, run:
@@ -64,7 +56,7 @@ python3 scripts/update_taxonomy.py --dry-run
 
 ## 📁 `/patterns/`
 
-The **Strategic Layer**. Contains the "when", "why" and "how". Distributed into dedicated folders by topics.
+The **Strategic Layer**. Source of WIKIs. Contains the "when" and "why". Distributed into dedicated folders by topics.
 
 ## 📁 `/problems/`
 
@@ -72,7 +64,7 @@ The **Implementation Layer**. Contains clean, optimal Python solutions mapped to
 
 ## 📁 `/python_notes/`
 
-The **Syntax Pitfalls**. Contains my own collection of syntax traps from the debugging journey in Python.
+The **Syntax Pitfalls**. Contains my own collection of Python syntax traps.
 
 ----
 
