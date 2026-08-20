@@ -1,22 +1,18 @@
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
-        # position = [3,5,7]
-        # speed = [3,2,1]
-        # target = 10
-        # 10 - 3 = 7/3 -> 2.3h left
-        # 10 - 5 = 5/2 -> 2.5h left
-        # 10 - 7 = 3/1 -> 3h left
+       # (0,1; 3,3; 5,1; 8,1; 10,2)
+       #  12     3    7    4     1
+       #
+       # 1. Sort input array desc by position and speed
+       # 2. If current time > max_time - it forms a fleet.
 
-        cars = sorted(zip(position, speed), reverse=True)
 
-        fleets = 0
+        cars_sorted = sorted(zip(position, speed), reverse = True)
         max_time = 0
-
-        for pos, spd in cars:
-            time = (target - pos) / spd
-
+        fleets = 0
+        for pos, speed in cars_sorted:
+            time = (target - pos)/speed
             if time > max_time:
                 fleets += 1
-                max_time = time 
-
+                max_time = time
         return fleets

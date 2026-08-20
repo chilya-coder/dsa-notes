@@ -1,15 +1,16 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-       key_frequency = {}
-       l, r = 0, 0
-       res = 0
-       while r < len(s):
-            while s[r] in key_frequency:
-                del key_frequency[s[l]]
+        # Time Complexity: O(n)
+        # Space Complexity: O(n)
+        window = set()
+        max_len = 0
+        l, r = 0, 0 # left is actual start of sequence, r just reads
+
+        while r < len(s):
+            while s[r] in window: #abca -> a is alr in window
+                window.remove(s[l])
                 l += 1
-
-            key_frequency[s[r]] = 1
-            res = max(res, r - l + 1)
+            window.add(s[r])
             r += 1
-
-       return res
+            max_len = max(max_len, r - l)
+        return max_len
