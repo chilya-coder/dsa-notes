@@ -137,3 +137,18 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+<!---LeetCode Topics End-->
