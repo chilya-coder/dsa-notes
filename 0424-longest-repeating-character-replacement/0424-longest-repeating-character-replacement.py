@@ -1,8 +1,10 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
+        # Time Complexity: O(n)
+        # Space Complexity: O(1)
         # "A ABABBA" k = 2
         #  lr
-        #  dict {A -> 3; B -> 3} for 6th iteration
+        #  dict {A -> 3; B -> 3} on the 6th iteration
         #  1. A -> 1 - 1 <= k
         #  2. AA -> 2 - 2 <= k
         #  3. AAB -> 3 - 2 <= k
@@ -35,5 +37,3 @@ class Solution:
                 l += 1
             max_len = max(max_len, r - l + 1)
         return max_len
-            
-
