@@ -76,7 +76,7 @@ Use this table during the first minute of pattern recognition.
 | :--- | :--- | :--- | :--- |
 | **In-place array modification** | Read / Write Compression | **One-way (Fast/Slow)**: One pointer scans, the other writes valid data. | Remove element, Remove duplicates, Filter, In-place |
 | **Pair matching in sorted data** | Classic Two Pointers | **Two-way (Left/Right)**: Typically **sorted** input. Pointers move toward each other to find a target. | Sorted, Target Sum, Palindrome, Pairs |
-| **Min/max in subarray** | Sliding window | Expand window to satisfy condition, **shrink** to restore validity. Maintain running state instead of recomputing. | Subarray, Substring, Longest/Shortest, At most / At least |
+| **Min/max in subarray** | Sliding window | Expand window unconditionally with r pointer. While condition is breaking - **shrink** with left. Pythonic way:  for r in range(len(s)): | Subarray, Substring, Longest/Shortest, At most / At least, k |
 | **Finding a majority element (Boyer-Moore)** | Voting / Cancellation | Cancel out competing values to reveal dominant candidate. | Majority, > N/2, Count |
 | **Local optimum for global best** | Greedy Optimization | Global feasibility check. Take the best step now without looking back. Define local invariant to preserve global one | Is solution feasible, max/min profit |
 | **Design Dict: $O(1)$ lookup + $O(1)$ random** | Use dict + list for random synchronously | Store values in list, track indices in dictionary. Sync them. | GetRandom O(1), Constant Time, Design Dict |
