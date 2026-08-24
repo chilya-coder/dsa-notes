@@ -10,6 +10,7 @@ class Solution:
             freq_map[s[r]] += 1
             max_freq = max(max_freq, max(freq_map.values()))
             while r - l + 1 - max_freq > k:
+                # IMPORTANT: move l, not r
                 freq_map[s[l]] -= 1
                 l += 1
             max_substring = max(max_substring, r - l + 1)
