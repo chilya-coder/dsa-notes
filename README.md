@@ -144,14 +144,21 @@ Constructive feedback and collaboration opportunities are always welcome!
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
 <!---LeetCode Topics End-->
