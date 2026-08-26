@@ -161,4 +161,12 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/chilya-coder/dsa-notes/tree/main/0206-reverse-linked-list/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/chilya-coder/dsa-notes/tree/main/0206-reverse-linked-list/) | Easy |
 <!---LeetCode Topics End-->
