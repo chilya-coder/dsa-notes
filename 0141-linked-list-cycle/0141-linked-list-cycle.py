@@ -5,6 +5,8 @@
 #         self.next = None
 
 class Solution:
+    # Time Complexity: O(n)
+    # Space Complexity: 0(1)
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         slow = fast = head
 
