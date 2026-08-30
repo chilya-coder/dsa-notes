@@ -143,6 +143,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
 ## String
@@ -160,15 +161,21 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
 | [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/chilya-coder/dsa-notes/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
 | [0206-reverse-linked-list](https://github.com/chilya-coder/dsa-notes/tree/main/0206-reverse-linked-list/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/chilya-coder/dsa-notes/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/chilya-coder/dsa-notes/tree/main/0206-reverse-linked-list/) | Easy |
+## Floyd's Cycle Finding Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
 <!---LeetCode Topics End-->
