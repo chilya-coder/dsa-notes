@@ -101,8 +101,8 @@ Use this table during the first minute of pattern recognition.
 |:-----------------|:-------------------|:----------|
 | **Arrays & Hashing** | [0217 Contains Duplicate](problems/0217-contains-duplicate/) • [0242 Valid Anagram](problems/0242-valid-anagram/) • [0001 Two Sum](problems/0001-two-sum/) • [0049 Group Anagrams](problems/0049-group-anagrams/) • [0347 Top K Frequent Elements](problems/0347-top-k-frequent-elements/) • [Premium Encode Decode Strings](problems/premium-encode-decode-strings/) • [0238 Product Of Array Except Self](problems/0238-product-of-array-except-self/) • [0036 Valid Sudoku](problems/0036-valid-sudoku/) • [0125 Valid Palindrome](problems/0125-valid-palindrome/) • [0128 Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence/) • [1422 Maximum Score After Splitting A String](problems/1422-maximum-score-after-splitting-a-string/) | [📚 Arrays & Hashing](patterns/arrays_and_hashing/README.md) |
 | **Two Pointers** | **Fast/Slow Pointers:**<br>[Remove Element](problems/0027-remove-element/) • [Remove Duplicates I](problems/0026-remove-duplicates-from-sorted-array/) • [Remove Duplicates II](problems/0080-remove-duplicates-from-sorted-array-ii/)<br><br>**Classic (Opposite Directions):**<br>[Merge Sorted Array](problems/0088-merge-sorted-array/) • [Valid Palindrome](problems/0125-valid-palindrome/) • [Is Subsequence](problems/0392-is-subsequence/) • [Two Sum II](problems/0167-two-sum-ii-input-array-is-sorted/) • [0015 3Sum](problems/0015-3sum/) • [0011 Container With Most Water](problems/0011-container-with-most-water/) | [📚 Fast/Slow Pointers](patterns/two_pointers/fast_slow_pointers.md)<br><br>[📚 Classic Two Pointers](patterns/two_pointers/classic_two_pointers.md) |
-| **Linked List** | [0141 Linked List Cycle](problems/0141-linked-list-cycle/) • [0021 Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists/) • [0206 Reverse Linked List](problems/0206-reverse-linked-list/) | [🚧 Coming soon](patterns/two_pointers) |
 | **Stack** | [0020 Valid Parentheses](problems/0020-valid-parentheses/)• [0155 Min Stack](problems/0155-min-stack/) • [0150 Evaluate Reverse Polish Notation](problems/0150-evaluate-reverse-polish-notation/) • [0739 Daily Temperatures](problems/0739-daily-temperatures/) • [0224 Basic Calculator](problems/0224-basic-calculator/) • [0071 Simplify Path](problems/0071-simplify-path/) • [0853 Car Fleet](problems/0853-car-fleet/) (it's not really a stack problem in the end, check readme) | [HelloInterview: Stack](https://www.hellointerview.com/learn/code/stack/overview) • [HelloInterview: Monotonic Stack](https://www.hellointerview.com/learn/code/stack/monotonic-stack) |
+| **Linked List** | [0141 Linked List Cycle](problems/0141-linked-list-cycle/) • [0021 Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists/) • [0206 Reverse Linked List](problems/0206-reverse-linked-list/) | [🚧 Coming soon](patterns/two_pointers) |
 | **Intervals** | [0228 Summary Ranges](problems/0228-summary-ranges/) • [0252 Meeting Rooms](problems/0252-meeting-rooms/) • [0057 Insert Interval](problems/0057-insert-interval/) • [0452 Minimum Number Of Arrows To Burst Balloons](problems/0452-minimum-number-of-arrows-to-burst-balloons/) | [📚 WIKI: Intervals](patterns/intervals) |
 | **Sliding Window** | [0209 Minimum Size Subarray Sum](problems/0209-minimum-size-subarray-sum/) • [0003 Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters/) • [0424 Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement/) | [📚 WIKI: Sliding Window](patterns/sliding_window.md) |
 | **Greedy - Optimization** | [Gas Station](problems/0134-gas-station/) • [Best Time to Buy/Sell Stock](problems/0121-best-time-to-buy-and-sell-stock/) • [Best Time to Buy/Sell Stock II](problems/0122-best-time-to-buy-and-sell-stock-ii/) • [Jump Game](problems/0055-jump-game/) • [Jump Game II](problems/0045-jump-game-ii/) • [Assign Cookies](problems/0455-assign-cookies/) | [📚 WIKI: Greedy](patterns/greedy/README.md) |
@@ -137,45 +137,3 @@ Constructive feedback and collaboration opportunities are always welcome!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuliia-chimyrys-software-engineer001/)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
-| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
-| [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
-| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
-| [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
-| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
-## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/chilya-coder/dsa-notes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
-| [0424-longest-repeating-character-replacement](https://github.com/chilya-coder/dsa-notes/tree/main/0424-longest-repeating-character-replacement/) | Medium |
-| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
-| [0567-permutation-in-string](https://github.com/chilya-coder/dsa-notes/tree/main/0567-permutation-in-string/) | Medium |
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0021-merge-two-sorted-lists](https://github.com/chilya-coder/dsa-notes/tree/main/0021-merge-two-sorted-lists/) | Easy |
-| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
-| [0206-reverse-linked-list](https://github.com/chilya-coder/dsa-notes/tree/main/0206-reverse-linked-list/) | Easy |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0021-merge-two-sorted-lists](https://github.com/chilya-coder/dsa-notes/tree/main/0021-merge-two-sorted-lists/) | Easy |
-| [0206-reverse-linked-list](https://github.com/chilya-coder/dsa-notes/tree/main/0206-reverse-linked-list/) | Easy |
-## Floyd's Cycle Finding Algorithm
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0141-linked-list-cycle](https://github.com/chilya-coder/dsa-notes/tree/main/0141-linked-list-cycle/) | Easy |
-<!---LeetCode Topics End-->
