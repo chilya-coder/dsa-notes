@@ -16,9 +16,7 @@
 
 This repository is a **quick recall system** for the **[Neetcode 150 LC](https://leetcode.com/problem-list/plakya4j//)**.
 
-I struggled A LOT when it came to DSA interviews. My first approach was memorization of solution, but then I've realized: strong algorithmic performance is not about that, but **inductive thinking**.
-
-Problems have clear **signals** that hint at a specific pattern and their own **invariants**.
+I struggled A LOT when it came to DSA interviews. My first approach was memorization of solution, but after a couple of days I couldn't re-project what've done any longer. That's what led me to realization -  strong algorithmic performance is not about memorization, but **inductive thinking**, ability to recognize **patterns**, **signals** and state clear **invariants**.
 
 This repository is where I collect those notes - something I (or anyone) can revisit right before the interview.
 
@@ -26,7 +24,8 @@ FAQ:
 <details>
 <summary><b>What programming language to use for DSA?</b></summary>
 
-Python allows to bypass the boilerplate and focus 100% on logic rather than syntax. All solutions are implemented using python3 here.
+Python. It allows to bypass the boilerplate and focus 100% on logic rather than syntax. 
+All solutions are implemented using python3 here.
 
 </details>
 
@@ -39,7 +38,7 @@ Auto-synced using [LeetHub-3.0](https://github.com/QasimWani/LeetHub).
 <details>
 <summary><b>How do you automate your pattern taxonomy?</b></summary>
 
-I automate anything that is done twice. The taxonomy table below is automatically updated via a CI/CD pipeline. 
+The taxonomy table below is automatically updated via a CI/CD pipeline. 
 A custom Python script parses the `pattern:` metadata from individual problem READMEs to prevent manual bookkeeping.
 
 To preview the taxonomy changes locally, run:
