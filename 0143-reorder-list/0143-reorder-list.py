@@ -19,7 +19,7 @@ class Solution:
         
         # 2. Reverse the second half
         curr = slow.next
-        slow.next = None  # Разъединяем списки
+        slow.next = None
         prev = None
         while curr:
             nxt = curr.next
