@@ -143,6 +143,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/chilya-coder/dsa-notes/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0143-reorder-list](https://github.com/chilya-coder/dsa-notes/tree/main/0143-reorder-list/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -156,4 +157,8 @@ Constructive feedback and collaboration opportunities are always welcome!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0143-reorder-list](https://github.com/chilya-coder/dsa-notes/tree/main/0143-reorder-list/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/chilya-coder/dsa-notes/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 <!---LeetCode Topics End-->
