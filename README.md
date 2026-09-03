@@ -143,6 +143,7 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/chilya-coder/dsa-notes/tree/main/0002-add-two-numbers/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/chilya-coder/dsa-notes/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0143-reorder-list](https://github.com/chilya-coder/dsa-notes/tree/main/0143-reorder-list/) | Medium |
 ## Two Pointers
@@ -156,9 +157,14 @@ Constructive feedback and collaboration opportunities are always welcome!
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/chilya-coder/dsa-notes/tree/main/0002-add-two-numbers/) | Medium |
 | [0143-reorder-list](https://github.com/chilya-coder/dsa-notes/tree/main/0143-reorder-list/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/chilya-coder/dsa-notes/tree/main/0138-copy-list-with-random-pointer/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0002-add-two-numbers](https://github.com/chilya-coder/dsa-notes/tree/main/0002-add-two-numbers/) | Medium |
 <!---LeetCode Topics End-->
